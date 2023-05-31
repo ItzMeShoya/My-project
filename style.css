@@ -1,0 +1,49 @@
+body{
+background-color:rgba(0, 0, 0, 0.982);
+color: white;
+text-align: center;
+}
+.judul{
+font-size: 60px;
+font-family: Khand,sans-serif;
+margin-bottom: -18px;
+}
+.anime{
+font-family:"Trebuchet MS";
+}
+hr{
+border-top: 5px solid chocolate;
+}
+h2{
+font-size: 30px;
+font-family:Lucida Sans;
+}
+span{
+font-size: 30px;
+font-family:Lucida Sans;
+background-color:chocolate;
+color: black;
+}
+.anime2{
+font-size: 30px;
+font-family:Georgia;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
