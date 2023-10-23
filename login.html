@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="login.css">
+    </head>
+    <body style="background-color: black;">
+        <form id="myForm" class="form">
+            <label for="user">Username:</label><br>
+            <input type="text" id="user" name="user" class="input"><br>
+            <label for="pass">Password:</label><br>
+            <input type="password" id="pass" name="pass" class="input"><br><br>
+            <button type="button" onclick="login()" class="button">login</button>
+          </form>
+
+
+
+
+        <script>
+        function login() {
+            var username = document.getElementById('user').value;
+            var password = document.getElementById('pass').value;
+            console.log(username)
+            console.log(password)
+        }
+
+    //    var form = document.getElementById('myForm')
+    //    form.addEventListener('submit', function (e) {
+    //     e.preventDefault();
+    //     var firstName = document.getElementById('fname').value;
+    //     var lastName = document.getElementById('lname').value;
+    //     console.log(fname)
+    //    });
+
+
+
+
+
+        </script>
+    </body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
